@@ -61,7 +61,7 @@ body {
     justify-content: space-between;
 }
 
-.titulo span{
+.titulo span {
     color: var(--roxo-pixelV);
     border-bottom: solid 3px var(--verde-pixelV);
 }
@@ -148,7 +148,7 @@ header img {
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-#sobre h2{
+#sobre h2 {
     margin-right: 5px;
 }
 
@@ -158,4 +158,18 @@ header img {
     size: 20px;
     text-align: justify;
     margin-top: 30px;
+}
+
+/* ------------Parallax---------- */
+
+#parallax {
+    height: 250px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.26)), url(./img/parallax.svg);
+
+    margin-bottom: 120px;
+
+    background-attachment: fixed;
+    
+    background-size: 30%;
 }
